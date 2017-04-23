@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" media="all and (min-width: 1250px)" href="./style/style.css">
+    <link rel="stylesheet" media="all and (max-width: 699px)" href="./style/style-iphone.css">
+    <link rel="stylesheet" media="all and (max-width: 1249px) and (min-width: 700px)" href="./style/style-ipad.css">
+        
+
+<title>Plant Recommendation Tool</title>
+<meta name="description" content="Document Recommendation Tool is">
+<meta name="author" content="Maximilien Servajean">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-41294436-1', 'auto');
+         ga('send', 'pageview');
+         
+        </script>
+</head>
+<body>
+    <div class="top">
+        <div class="content ">
+            <div id="logo" class="item transparent">
+                <img src="./img/Logo.png"/>
+            </div>
+            <div id="description" class="item transparent">
+                A plant sharing tool for botanist
+            </div>
+        </div>
+    </div>
+    <div class="elements">
+        <div class="content">
+            <h1><span class="plantrt">PlantRT</span>: Gossip-Based Recommendation</h1>
+            <p class="abstract" style="margin-left:auto;margin-right:auto;text-align:center;margin-top:-50px;margin-bottom:50px;">We present <span class="plantrt">PlantRT</span>, a distributed gossip-based platform for content sharing enabling plants observation keywords search and GPS position based recommendation. <span class="plantrt">PlantRT</span> combines advantages from centralized and P2P systems.</p>
+                <div class="elements_content">
+                    <div class="element first">
+                        <img src="./img/icon-perso.png"/>
+                        <h2>Personalization</h2>
+                        <p>Each time a botanist shares a new plant observation, his profile is updated taking into account the observation family, species and genus. Recommendation and search results take into account the user's profile.</p>
+                    </div>
+                    <div class="element middle">
+                        <img src="./img/icon-share.png"/>
+                        <h2>Distributed Query Routing</h2>
+                        <p>Users are attached to the site of their choice that can be their own computer. A site regroups 1 to m users. Each site is part of large scale sharing network of <span class="plantrt">PlantRT</span> platforms. The keywords queries or GPS position are routed among diversified and chosen sites to retrieve relevant observations.</p>
+                    </div>
+                    <div class="element last">
+                        <img src="./img/icon-filter.png"/>
+                        <h2>Distributed Indexing</h2>
+                        <p>Each site periodically gossips to establish both an overlay network among virtual nodes (users) and to compute statistics about the global corpus, thus, enabling a fine-grained indexing.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="illustration video">
+        <div class="content video">
+            <h1>Demo</h1>
+
+            <div class="find not-iphone" style="margin-top:50px;margin-bottom:50px;float:none;">
+                <iframe src="http://player.vimeo.com/video/92598476" width="700" height="392" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="find iphone" style="margin-top:50px;margin-bottom:50px;float:none;">
+                <iframe src="http://player.vimeo.com/video/92598476" width="400" height="224" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+    <div class="go-for-it">
+        <div class="content">
+            <h1>Try it out</h1>
+            <div class="elements_content">
+                <div class="element first-go">
+                    <h2>Java EE</h2>
+                    <p>The full prototype is developped in Java EE and relies on a MongoDB database.</p>
+                </div>
+                <div class="element middle-go">
+                    <h2>Easy to deploy</h2>
+                    <p>Deploying <span class="plantrt">PlantRT</span> in a network only takes minutes. A README file explains the installation and reployement procedure.</p>
+                </div>
+                <div class="element last-go">
+                    <div class="cont button">
+                        <h2><a href="./plantrt.zip">Download now</a></h2>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="content">
+            © 2014 <b>Plant Recommendation Tool</b>, INRA, INRIA, LIRMM, UM2 All Right Reserved, By <a href="../../" style="text-decoration:none"><b>Maximilien Servajean</b></a>
+        </div>
+        <div class="content">
+            M Servajean, E Pacitti, M Liroz-Gistau, A Joly and J Champ.
+        </div>
+        
+        <div class="content">
+             "PlantRT: Multi-Site Diversified Search and Recommendation for Citizen Sciences" BDA, in Grenoble, France, 2014.
+        </div>
+    </div>
+
+
+
+<script type="text/javascript">
+    
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41294436-1']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+     
+    </script>
+  <script src="./js/jquery.min.js"></script>
+    <script src="./js/masonry.js"></script>
+    <script src="./js/waitforimages.js"></script>
+<script src="./js/docrt.core.js"></script>
+</body>
+</html>

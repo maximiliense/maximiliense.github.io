@@ -1,0 +1,450 @@
+/* -------------------------------- 
+Colors
+-------------------------------- */
+
+.white {
+    color : #ffffff;
+}
+
+.blue{
+	color :#29cfff;
+}
+
+.dark{
+	color :#2b2937;
+}
+
+.darker{
+	color :#1e1d26;
+}
+
+.clear-grey{
+	color :#b8b9c8;
+}
+
+.dark-grey{
+	color :#5b5c6a;
+}
+
+.bluebg{
+	background-color :#29cfff;
+}
+
+.darkbg{
+	background-color :#2b2937;
+}
+
+.darkerbg{
+	background-color :#1e1d26;
+}
+
+.clear-greybg{
+	background-color :#b8b9c8;
+}
+
+.dark-greybg{
+	background-color :#5b5c6a;
+}
+
+/* -------------------------------- 
+Fonts
+-------------------------------- */
+
+@font-face {
+    font-family: 'Open Sans2';
+    src: url(opensans.webloc);
+}
+
+/* -------------------------------- 
+Paragraph Styles
+-------------------------------- */
+
+h1 {
+	font-family: 'Open Sans2',sans-serif;
+	font-size: 80px;
+	font-weight: 300;
+    margin-top:70px;
+}
+
+h2 {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+a {
+	font-family: 'Open Sans',sans-serif;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+div,input {
+    font-family: 'Open Sans',sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* -------------------------------- 
+Inits
+-------------------------------- */
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+span {
+    display:inline;
+}
+/* -------------------------------- 
+Tests
+-------------------------------- */
+
+.test {
+    height:20px;
+    width:30px;
+}
+
+::selection {
+    background: #38d0fd;
+    color:#000;
+}
+::-moz-selection {
+    background: #38d0fd;
+    color:#000;
+}
+/* -------------------------------- 
+Content blocs
+-------------------------------- */
+.complete-top-menu {
+    margin-left : 6%;
+    display:block;
+}
+.menu {
+    display : inline;
+
+    margin-right : 8%;
+}
+
+.display-menu {
+    display:none;
+}
+
+.menu a {
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+
+.menu a.white:hover {
+    color:#29cfff;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.menu a {
+	font-size: 18px !important;
+    display: inline;
+    font-weight: 200 !important;
+    background-color:transparent!important;
+    font-size: 18px;
+	font-weight: 400;
+}
+
+.top {
+    width : 100% !important;
+    padding-top:22px;
+    padding-bottom:18px;
+    position:fixed;
+    opacity:0.85;
+}
+
+.hello-sec {
+    margin-top:64px;
+}
+
+.hello-sec h1 {
+    font-weight: 100 !important;
+
+}
+
+.hello-sec h2 {
+    font-weight: 600;
+}
+
+.hello-sec p {
+
+    width:70%;
+    float:left;
+    margin-right:40px;
+}
+
+.content {
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+}
+.hello-sec p.interests {
+    margin-top:100px;
+    width:100%;
+}
+
+
+.desc2 {
+    margin-top: 20px;
+    width:90%!important;
+}
+
+.hello-sec p.interests-list {
+    margin-top:0px!important;
+    margin-bottom:20px;
+}
+.hello-sec p.desc {
+    height:100px;
+}
+
+.hello-sec {
+    background-image : url(../img/header.jpg);
+    background-size: cover;
+
+}
+
+img.profile {
+    float:left;
+    margin-right: 10px;
+    margin-top:25px;
+}
+
+.section {
+    float:left;
+    width : 100% !important;
+    padding-bottom:70px;
+}
+
+.willbe {
+    text-align:center;
+    width:200px;
+    border:3px solid #b8b9c8;
+    margin-bottom:50px;
+    margin-top:-20px;
+    float:left;
+    margin-right:50px;
+}
+
+.willbe h3.titlellbe {
+    font-variant: small-caps!important;
+}
+
+.willbe p.wherellbe {
+    font-variant: small-caps!important;
+    margin-top:-20px !important;
+    margin-bottom:0px;
+}
+
+.datemonth {
+    font-weight:400;
+}
+
+.dateday {
+    font-weight:100;
+    font-size:40px;
+    margin-top:-20px;
+    margin-bottom:10px;
+}
+
+.twitter {
+    float:left;
+    margin-bottom:20px;
+    margin-top:-50px;
+    width:60%;
+
+}
+
+.tweetd {
+    font-style:normal;
+    font-variant:small-caps;
+}
+
+
+.tweet {
+    font-variant:small-caps;
+}
+
+.tweet a {
+    color : #2b2937;
+    font-size: 18px;
+	font-weight: 400;
+}
+
+.twitter h2 {
+    font-weight:400;
+}
+
+.twitter h2 img {
+    margin-right:20px;
+}
+.desc-publi {
+    width:45%;
+    float:left;
+    margin-bottom:50px;
+    margin-top:-50px;
+    margin-right:5%;
+}
+
+.desc-publi p,.desc-publi a {
+	color :#5b5c6a;
+  	font-size: 18px;
+	font-weight: 400;
+}
+
+.desc-publi h2 {
+    font-weight:400;
+}
+
+.desc-links {
+    width:45%;
+    float:left;
+    margin-bottom:50px;
+    margin-top:-50px;
+    margin-right:5%;
+}
+
+.fullsize {
+    width: 90%!important;
+}
+
+.fullsize img {
+    width:100%
+}
+
+.desc-links h2 {
+    font-weight:400;
+}
+
+.desc-links p {
+	color :#5b5c6a;
+    margin-bottom:10px;
+}
+
+.desc-links a {
+    color: #29cfff;
+    font-style:normal;
+    text-decoration:none;
+   	font-size: 18px;
+	font-weight: 400;
+}
+
+.desc-contactme {
+    width:100%;
+    float:left;
+    margin-bottom:50px;
+    margin-top:15px;
+    margin-right:5%;
+}
+
+.contactme-sec .sayhello {
+    margin-top:-40px;
+}
+
+.contactme-sec .inputname,.contactme-sec .inputname input {
+    color:#b8b9c8;
+    width:100%;
+    margin-bottom:20px;
+    border-bottom: 2px solid #1e1d26;
+    padding-bottom:5px;
+}
+.contactme-sec .inputname input {
+    width:20%px;
+}
+.contactme-sec .inputname input,.contactme-sec .inputname .perso-email {
+    float:right;
+    text-align:right;
+    border:none;
+    background-color:transparent;
+    height:20px;
+}
+
+.contactme-sec .inputnameaddress{
+    color:#b8b9c8;
+    width:100%;
+    margin-bottom:20px;
+    border-bottom: 2px solid #1e1d26;
+    padding-bottom:5px;
+    
+    height: 70px;
+}
+
+.contactme-sec .inputnameaddress .perso-address {
+
+    float:right;
+    text-align:right;
+    border:none;
+    background-color:transparent;
+    height:60px;
+    width:220px;
+}
+
+.contactme-sec textarea {
+    color:#b8b9c8;
+    width:99%;
+    font-size: 18px;
+    font-weight: 400;
+    resize:none;
+    height:130px;
+    border: 2px solid #1e1d26;
+    background-color:transparent;
+}
+
+.contactme-sec button {
+    width:100%;
+    color:#5b5c6a;
+    background-color:#b8b9c8;
+    border:none;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-top:10px;
+}
+.copyright-sec {
+    text-align:center;
+    height:60px;
+    padding-top:30px;
+}
+
+.error-contactme {
+    width:100%;
+    text-align:center;
+    color:#b80000;
+    font-size: 14px;
+}
+
+.sent-contactme {
+    width:100%;
+    text-align:center;
+    color:#009d28;
+    font-size: 14px;
+}
+.error-contactme div,.sent-contactme div {
+    padding-right:70px;
+}

@@ -1,0 +1,178 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:"Helvetica Neue","Helvetica","sans-serif";
+}
+
+b {
+    color:#84bb3d;
+    font-weight:400;
+}
+
+div.elements{
+    height:400px;
+}
+
+.top,.elements,.illustration,.go-for-it,.copyright{
+    min-width:1100px;
+}
+
+.elements_content{
+    width:100%;
+}
+
+h1 {
+    text-align:center;
+    font-size:60px;
+    font-weight:200;
+    margin-bottom:60px;
+}
+
+h2 {
+    text-align:center;
+    font-size:30px;
+    font-weight:200;
+    color:#84bb3d;
+    margin-bottom:0px;
+}
+
+p {
+    font-size:18px;
+    color:gray;
+    margin-top:10px;
+}
+
+div.illustration{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color:#84bb3d;
+    width:100%;
+}
+
+div.element{
+text-align:center;
+width:300px;
+}
+
+div.element.first{
+    float:left;
+
+}
+
+div.element.middle{
+    margin-left:50px;
+    float:left;
+}
+
+div.element.last{
+
+    float:right;
+}
+
+div.element.first-go{
+    float:left;
+
+}
+
+div.element.middle-go{
+    margin-left:80px;
+    float:left;
+}
+
+div.element.last-go{
+
+    float:right;
+    width:250px;
+    text-align:center;
+
+    height:100px;
+    padding-top:20px;
+    margin-top:30px;
+}
+
+div.cont{
+    background-color:#84bb3d;
+    padding-top:5px;
+    height:100%;
+    width:100%;
+}
+
+div.element.last-go h2{
+    color:white;
+}
+
+div.content {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+div#logo {
+
+    margin-top:40px;
+    float:left;
+    margin-left:100px;
+}
+
+div#description {
+    color:#84bb3d;
+    float:right;
+    margin-top:70px;
+    margin-right:100px;
+}
+
+div.top {
+    width:100%;
+    height:160px;
+    border-bottom: 2px dashed #84bb3d;
+}
+
+div.illustration {
+    padding-top:20px;
+}
+
+div.illustration h1 {
+    color:#fff;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+div.find{
+    float:left;
+    margin-left:100px;
+}
+
+div.illustration img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.find, div.enrich{
+    margin-top:-130px;
+    width:275px;
+}
+
+div.find h2,div.enrich h2 {
+    color:#fff;
+}
+div.enrich{
+    float:right;
+    margin-right:200px;
+}
+
+div.go-for-it {
+    height:400px;
+}
+
+
+
+div.copyright{
+    text-align: center;
+    background-color:#222222;
+    color:white;
+    width:100%;
+    padding-top:50px;
+    height:100px;
+}
