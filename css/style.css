@@ -212,6 +212,15 @@ img.profile {
     padding-bottom:10px;
 }
 
+.teaching-sec p {
+    text-align: center;
+}
+
+.teaching-sec .courses {
+    width: 251px;
+    height: 188px;
+}
+
 .hello-sec p.interests {
     margin-top:110px;
     width:100%;

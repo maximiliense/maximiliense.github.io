@@ -436,3 +436,12 @@ Content blocs
     margin-left-auto;
     margin-right:auto;xx
 }
+
+.teaching-sec p {
+    text-align: center;
+}
+
+.teaching-sec .courses {
+    width: 251px;
+    height: 188px;
+}

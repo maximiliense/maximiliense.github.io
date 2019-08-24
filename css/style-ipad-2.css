@@ -448,3 +448,12 @@ img.profile {
 .error-contactme div,.sent-contactme div {
     padding-right:70px;
 }
+
+.teaching-sec p {
+    text-align: center;
+}
+
+.teaching-sec .courses {
+    width: 251px;
+    height: 188px;
+}
