@@ -449,7 +449,7 @@ img.profile {
     padding-right:70px;
 }
 
-.teaching-sec p {
+.teaching-sec p.courses-list {
     text-align: center;
 }
 

@@ -212,7 +212,7 @@ img.profile {
     padding-bottom:10px;
 }
 
-.teaching-sec p {
+.teaching-sec p.courses-list {
     text-align: center;
 }
 
